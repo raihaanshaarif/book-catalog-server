@@ -18,6 +18,7 @@ const createBookZodSchema = z.object({
     image: z.string({
       required_error: 'publicationDate number is required!',
     }),
+    comments: z.array(z.string()).default([]),
     createdBy: z.string({
       required_error: 'Created by number is required!',
     }),

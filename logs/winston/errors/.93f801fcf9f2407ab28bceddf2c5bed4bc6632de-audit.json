@@ -1,0 +1,40 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "G:\\@Phero 2023\\Project\\book-catalog-server\\logs\\winston\\errors\\.93f801fcf9f2407ab28bceddf2c5bed4bc6632de-audit.json",
+    "files": [
+        {
+            "date": 1713953292240,
+            "name": "G:\\@Phero 2023\\Project\\book-catalog-server\\logs\\winston\\errors\\2024-24-04-16-error.log",
+            "hash": "389bb6767a5d1686bcb437ef67aa26bce1c3915ead897389025d29f29522f682"
+        },
+        {
+            "date": 1714036543464,
+            "name": "G:\\@Phero 2023\\Project\\book-catalog-server\\logs\\winston\\errors\\2024-25-04-15-error.log",
+            "hash": "02e2ca734e9a92e985f5e3983ee12fa988670f8e7fff54bf0c77ae6c9a7861e7"
+        },
+        {
+            "date": 1714039235915,
+            "name": "G:\\@Phero 2023\\Project\\book-catalog-server\\logs\\winston\\errors\\2024-25-04-16-error.log",
+            "hash": "0711266b856e02c906278517a56625fd5e8877451be629a6a6898bdde7da5fab"
+        },
+        {
+            "date": 1714043840357,
+            "name": "G:\\@Phero 2023\\Project\\book-catalog-server\\logs\\winston\\errors\\2024-25-04-17-error.log",
+            "hash": "9d514a49816935b6e6ba145aefd46cb790319cfa31cba318b296c805479d8bc4"
+        },
+        {
+            "date": 1714302964379,
+            "name": "G:\\@Phero 2023\\Project\\book-catalog-server\\logs\\winston\\errors\\2024-28-04-17-error.log",
+            "hash": "11c8fe99da1ec03afb4d8eedbff1929cfe655f15e1dae60ccb275a5261f0e84e"
+        },
+        {
+            "date": 1714305653792,
+            "name": "G:\\@Phero 2023\\Project\\book-catalog-server\\logs\\winston\\errors\\2024-28-04-18-error.log",
+            "hash": "8106b326675de101d2ca59308440d1bd5a27619cedf23af6955ab243ae152a1a"
+        }
+    ],
+    "hashType": "sha256"
+}

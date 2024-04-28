@@ -75,10 +75,41 @@ const deleteBook = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
+const createComment: RequestHandler = catchAsync(
+  async (req: Request, res: Response) => {
+    const commentData: string = req.body.comments;
+    const bookId = req.params.id;
+    console.log('from controller', commentData, bookId);
+
+    const result = await BookService.createComment(bookId, commentData);
+
+    sendResponse<IBook>(res, {
+      statusCode: httpStatus.OK,
+      success: true,
+      message: 'Book created successfully!',
+      data: result,
+    });
+  },
+);
+const getComment = catchAsync(async (req: Request, res: Response) => {
+  const id = req.params.id;
+
+  const result = await BookService.getComment(id);
+
+  sendResponse<IBook>(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'Comment retrieved successfully !',
+    data: result,
+  });
+});
+
 export const BookController = {
   createBook,
   getAllBooks,
   getSingleBook,
   updateBook,
   deleteBook,
+  createComment,
+  getComment,
 };

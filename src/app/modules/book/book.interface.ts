@@ -9,6 +9,9 @@ export type IBook = {
   publicationDate: string;
   image: string;
   createdBy: Types.ObjectId | IUser;
+  comments: Array<{
+    text: string;
+  }>;
 };
 
 export type IBookFilters = {

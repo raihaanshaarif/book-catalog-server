@@ -18,5 +18,7 @@ router.patch(
 );
 router.delete('/:id', BookController.deleteBook);
 router.get('/', BookController.getAllBooks);
+router.post('/comment/:id', BookController.createComment);
+router.get('/comment/:id', BookController.getComment);
 
 export const BookRoutes = router;

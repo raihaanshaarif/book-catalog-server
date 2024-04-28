@@ -96,10 +96,31 @@ const deleteBook = async (id: string): Promise<IBook | null> => {
   return result;
 };
 
+const createComment = async (bookId: string, commentData: string) => {
+  const result = await Book.findOneAndUpdate(
+    { _id: bookId },
+    { $push: { comments: commentData } },
+  );
+  console.log(result);
+  return result;
+};
+
+const getComment = async (id: string): Promise<IBook | null> => {
+  const result = await Book.findOne(
+    { _id: id },
+    'comments -_id', // Includes comments, excludes _id
+  ).exec(); // Ensuring to execute and return a promise
+
+  console.log(result);
+  return result;
+};
+
 export const BookService = {
   createBook,
   getAllBooks,
   getSingleBook,
   updateBook,
   deleteBook,
+  createComment,
+  getComment,
 };

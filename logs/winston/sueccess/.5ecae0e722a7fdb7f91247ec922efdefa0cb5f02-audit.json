@@ -1,0 +1,40 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "G:\\@Phero 2023\\Project\\book-catalog-server\\logs\\winston\\sueccess\\.5ecae0e722a7fdb7f91247ec922efdefa0cb5f02-audit.json",
+    "files": [
+        {
+            "date": 1713953292233,
+            "name": "G:\\@Phero 2023\\Project\\book-catalog-server\\logs\\winston\\sueccess\\2024-24-04-16-success.log",
+            "hash": "17cc106d314cab51559e4969107922191a75701741326eb8e9d2efe69b01635b"
+        },
+        {
+            "date": 1714036543453,
+            "name": "G:\\@Phero 2023\\Project\\book-catalog-server\\logs\\winston\\sueccess\\2024-25-04-15-success.log",
+            "hash": "7b7b9a81687fa33b3f6f95238012c5c5031e0247c3bb21cfdedfb70a1cc24ccb"
+        },
+        {
+            "date": 1714039235893,
+            "name": "G:\\@Phero 2023\\Project\\book-catalog-server\\logs\\winston\\sueccess\\2024-25-04-16-success.log",
+            "hash": "1e535d5f17374bfc241990ac366ed1d071ecc39b768c88b7af6c28baf9ff8a4b"
+        },
+        {
+            "date": 1714043840333,
+            "name": "G:\\@Phero 2023\\Project\\book-catalog-server\\logs\\winston\\sueccess\\2024-25-04-17-success.log",
+            "hash": "7cd59b47750dd77542696730b8d124e9c867426aebda7899ffd4db24dd8bdabd"
+        },
+        {
+            "date": 1714302964365,
+            "name": "G:\\@Phero 2023\\Project\\book-catalog-server\\logs\\winston\\sueccess\\2024-28-04-17-success.log",
+            "hash": "1a74eea9043412bd630b61a6ed7d20aa3f906b604b36f3d9a0be4ec77115b88c"
+        },
+        {
+            "date": 1714305653784,
+            "name": "G:\\@Phero 2023\\Project\\book-catalog-server\\logs\\winston\\sueccess\\2024-28-04-18-success.log",
+            "hash": "07c6066534d145807e5b39200cd8e7cd7982133427a2707286b8e48c81026589"
+        }
+    ],
+    "hashType": "sha256"
+}
