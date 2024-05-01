@@ -6,34 +6,79 @@
     "auditLog": "/Users/raihan/Desktop/My Files/Programming/book-catalouge/logs/winston/sueccess/.ee8b9ef13956d2d40acefee7e2864347af7a6a7d-audit.json",
     "files": [
         {
-            "date": 1713265700401,
-            "name": "/Users/raihan/Desktop/My Files/Programming/book-catalouge/logs/winston/sueccess/2024-16-04-17-success.log",
-            "hash": "1e1ec99de337b022db3d579d323db19ff7279b072078677e33720c2814e51e2e"
+            "date": 1713981653171,
+            "name": "/Users/raihan/Desktop/My Files/Programming/book-catalouge/logs/winston/sueccess/2024-25-04-00-success.log",
+            "hash": "8c850eedcbe667cc3cd4bd1c5e488cc3a46cee9213ce0ce68fb4a8d328d867e5"
         },
         {
-            "date": 1713279367888,
-            "name": "/Users/raihan/Desktop/My Files/Programming/book-catalouge/logs/winston/sueccess/2024-16-04-20-success.log",
-            "hash": "8113dc0d23077da3d23cd7c6cb206eedc78b92d5906760647538ec325637396b"
+            "date": 1714320500458,
+            "name": "/Users/raihan/Desktop/My Files/Programming/book-catalouge/logs/winston/sueccess/2024-28-04-22-success.log",
+            "hash": "3d0f8488f14e940242e0ab37b5bb007cc7ecd23d2e75749eda8a296788786cd5"
         },
         {
-            "date": 1713279634735,
-            "name": "/Users/raihan/Desktop/My Files/Programming/book-catalouge/logs/winston/sueccess/2024-16-04-21-success.log",
-            "hash": "6af871ce7f3e8163642a3faaec591026ec7b4f38d1a984cd0c7d8e57f1588a71"
+            "date": 1714421216611,
+            "name": "/Users/raihan/Desktop/My Files/Programming/book-catalouge/logs/winston/sueccess/2024-30-04-02-success.log",
+            "hash": "8ae87ee29b58e25b6f536b779c4e2878096ce901d226a8a217b874088bfb0504"
         },
         {
-            "date": 1713287259142,
-            "name": "/Users/raihan/Desktop/My Files/Programming/book-catalouge/logs/winston/sueccess/2024-16-04-23-success.log",
-            "hash": "d55851fcd599d8c6246e3a2923d9239150993079a6625c93790a22721c6ba4e0"
+            "date": 1714432348603,
+            "name": "/Users/raihan/Desktop/My Files/Programming/book-catalouge/logs/winston/sueccess/2024-30-04-05-success.log",
+            "hash": "a9eedef36e1897912cde4a5b570d92a12956e5c1c210d914dc2888348f1c0112"
         },
         {
-            "date": 1713290486849,
-            "name": "/Users/raihan/Desktop/My Files/Programming/book-catalouge/logs/winston/sueccess/2024-17-04-00-success.log",
-            "hash": "df90906ebcbe4928f06656392b15c2f2f3a1c809b96c07bab696e39d9e6da5df"
+            "date": 1714506314815,
+            "name": "/Users/raihan/Desktop/My Files/Programming/book-catalouge/logs/winston/sueccess/2024-01-05-01-success.log",
+            "hash": "15d1f9459eb1c891722514d5400214554294dd3c5e59be4e15b1ff8a3ba3eebd"
         },
         {
-            "date": 1713294030223,
-            "name": "/Users/raihan/Desktop/My Files/Programming/book-catalouge/logs/winston/sueccess/2024-17-04-01-success.log",
-            "hash": "89d2007f5888e0371033f4d96b0083c7b403fd00ac72c95bad2693c1e841d3b7"
+            "date": 1714514190421,
+            "name": "/Users/raihan/Desktop/My Files/Programming/book-catalouge/logs/winston/sueccess/2024-01-05-03-success.log",
+            "hash": "0129614962621e032adb108e0c72521f78d7f581cb1893c198ab95cdc3f1b599"
+        },
+        {
+            "date": 1714519545544,
+            "name": "/Users/raihan/Desktop/My Files/Programming/book-catalouge/logs/winston/sueccess/2024-01-05-05-success.log",
+            "hash": "4d0523a0823e0dc4bb46a3444ec193c3586c7b309830d321374ae73a64a06445"
+        },
+        {
+            "date": 1714524631656,
+            "name": "/Users/raihan/Desktop/My Files/Programming/book-catalouge/logs/winston/sueccess/2024-01-05-06-success.log",
+            "hash": "ca7d23c762985cce7a06f4e2de93e63209b4be41c95a1a332cb1037253139c77"
+        },
+        {
+            "date": 1714528814215,
+            "name": "/Users/raihan/Desktop/My Files/Programming/book-catalouge/logs/winston/sueccess/2024-01-05-08-success.log",
+            "hash": "9f89ca9381da04c702dc6c3df21f701e17d9b22f73fc07942ac39c077b6c7858"
+        },
+        {
+            "date": 1714566775774,
+            "name": "/Users/raihan/Desktop/My Files/Programming/book-catalouge/logs/winston/sueccess/2024-01-05-18-success.log",
+            "hash": "587710884b9db64df86561dbb529b4c7449e525481cd81241f53981a4ce01a7f"
+        },
+        {
+            "date": 1714568406873,
+            "name": "/Users/raihan/Desktop/My Files/Programming/book-catalouge/logs/winston/sueccess/2024-01-05-19-success.log",
+            "hash": "63bab6e79beb10e5cdd770c61a7de150b29e4716a0e541ef48176fe673b741b7"
+        },
+        {
+            "date": 1714573178391,
+            "name": "/Users/raihan/Desktop/My Files/Programming/book-catalouge/logs/winston/sueccess/2024-01-05-20-success.log",
+            "hash": "ee13f00f28a018303fcb174aaafd96b6f7b86762635fa2c5b5d1cbb49f826f75"
+        },
+        {
+            "date": 1714584794846,
+            "name": "/Users/raihan/Desktop/My Files/Programming/book-catalouge/logs/winston/sueccess/2024-01-05-23-success.log",
+            "hash": "6d747aee8a96ff0c5caa85990a40f8489ca7eedd54f01e3417e3ea70d6a9add7"
+        },
+        {
+            "date": 1714591826988,
+            "name": "/Users/raihan/Desktop/My Files/Programming/book-catalouge/logs/winston/sueccess/2024-02-05-01-success.log",
+            "hash": "67db7e175184329864d05c1bc83d65c7f17438e1356387afe67ef87d0ec3851e"
+        },
+        {
+            "date": 1714595636323,
+            "name": "/Users/raihan/Desktop/My Files/Programming/book-catalouge/logs/winston/sueccess/2024-02-05-02-success.log",
+            "hash": "c1cf27cc3f69502641afa7eb9284bade7a12283dded3d3ecf104d0f536a3f1f1"
         }
     ],
     "hashType": "sha256"

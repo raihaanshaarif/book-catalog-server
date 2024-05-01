@@ -12,25 +12,27 @@ import { IUser } from '../user/user.interface';
 import sendResponse from '../../../shared/sendResponse';
 import { AuthService } from './auth.service';
 
-const userSignup = catchAsync(async (req: Request, res: Response) => {
-  const { ...userData } = req.body;
-  const result = await AuthService.userSignup(userData);
+const userSignup = catchAsync(
+  async (req: Request, res: Response): Promise<void> => {
+    const { ...userData } = req.body;
+    const result = await AuthService.userSignup(userData);
 
-  const { password, ...rest } = result;
+    const { password, ...rest } = result;
 
-  sendResponse<Omit<IUser, 'password'>>(res, {
-    statusCode: httpStatus.OK,
-    success: true,
-    message: 'User created successfully',
-    data: rest,
-  });
-});
+    sendResponse<Omit<IUser, 'password'>>(res, {
+      statusCode: httpStatus.OK,
+      success: true,
+      message: 'User created successfully',
+      data: rest,
+    });
+  },
+);
 
 const userLogin = catchAsync(async (req: Request, res: Response) => {
-  const { ...userData } = req.body;
-  const result = await AuthService.userLogin(userData);
-
-  const { refreshToken, ...rest } = result;
+  const result = await AuthService.userLogin(req.body);
+  const { accessToken: token, refreshToken, user } = result;
+  // console.log(accessToken);
+  const { email, _id } = result.user;
 
   const cookieOptions = {
     secure: config.env === 'production',
@@ -39,11 +41,11 @@ const userLogin = catchAsync(async (req: Request, res: Response) => {
 
   res.cookie('refreshToken', refreshToken, cookieOptions);
 
-  sendResponse<IRefreshTokenResponse>(res, {
+  sendResponse(res, {
     success: true,
     statusCode: httpStatus.OK,
     message: 'User logged in successfully',
-    data: rest,
+    data: { token, user: { email, _id } },
   });
 });
 
@@ -59,7 +61,7 @@ const refreshToken = catchAsync(async (req: Request, res: Response) => {
 
   res.cookie('refreshToken', refreshToken, cookieOptions);
 
-  sendResponse<IRefreshTokenResponse>(res, {
+  sendResponse(res, {
     success: true,
     statusCode: httpStatus.OK,
     message: 'New access token generated successfully !',

@@ -86,7 +86,7 @@ const createComment: RequestHandler = catchAsync(
     sendResponse<IBook>(res, {
       statusCode: httpStatus.OK,
       success: true,
-      message: 'Book created successfully!',
+      message: 'Comment added successfully!',
       data: result,
     });
   },

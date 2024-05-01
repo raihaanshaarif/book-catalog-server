@@ -9,6 +9,7 @@ import ApiError from '../../../errors/apiError';
 import httpStatus from 'http-status';
 
 const createBook = async (bookData: IBook): Promise<IBook> => {
+  console.log(bookData);
   const result = await Book.create(bookData);
   return result;
 };
@@ -97,6 +98,7 @@ const deleteBook = async (id: string): Promise<IBook | null> => {
 };
 
 const createComment = async (bookId: string, commentData: string) => {
+  console.log('test', commentData);
   const result = await Book.findOneAndUpdate(
     { _id: bookId },
     { $push: { comments: commentData } },

@@ -33,8 +33,11 @@ const userSchema = new Schema<IUser, UserModel>(
 // isUserExist by phoneNumber
 userSchema.statics.isUserExist = async function (
   email: string,
-): Promise<Pick<IUser, 'password' | '_id' | 'role'> | null> {
-  return await this.findOne({ email }, { password: 1, role: 1 }).lean();
+): Promise<Pick<IUser, 'password' | '_id' | 'role' | 'email'> | null> {
+  return await this.findOne(
+    { email },
+    { password: 1, role: 1, email: 1 },
+  ).lean();
 };
 
 // password verification

@@ -42,6 +42,7 @@
     "http-status": "^1.7.4",
     "install": "^0.13.0",
     "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.5.0",
     "mongoose": "^8.2.1",
     "node": "^18.20.2",
     "node-pre-gyp": "^0.17.0",

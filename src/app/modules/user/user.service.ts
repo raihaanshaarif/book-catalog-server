@@ -11,6 +11,10 @@ import httpStatus from 'http-status';
 import { User } from './user.model';
 
 const createUser = async (data: IUser): Promise<IUser> => {
+  const isUserExist = await User.isUserExist(data.email);
+  if (isUserExist) {
+    throw new ApiError(httpStatus.IM_USED, 'Email Already Exists');
+  }
   let { role } = data;
   if (role === undefined) {
     role = 'user';
