@@ -92,6 +92,7 @@ const updateUser = async (
   if (!isExist) {
     throw new ApiError(httpStatus.NOT_FOUND, 'User not found');
   }
+  console.log(id, payload);
   const { ...userData } = payload;
   const updatedUserData = { ...userData };
 

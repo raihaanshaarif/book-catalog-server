@@ -78,6 +78,8 @@ const updateBook = async (
   payload: Partial<IBook>,
 ): Promise<IBook | null> => {
   const isExist = await Book.findOne({ _id: id });
+
+  console.log('id', id, 'Payload', payload);
   if (!isExist) {
     throw new ApiError(httpStatus.NOT_FOUND, 'Book not found');
   }
